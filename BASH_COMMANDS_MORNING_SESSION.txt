@@ -1,0 +1,184 @@
+  191  git config --global user.name "latak215"
+  192  git config --global user.email "latak215@vt.edu"
+  193  git config --global color.ui "auto"
+  194  $ git config --global core.editor "nano -w"
+  195  git config --global core.editor "nano -w"
+  196  cd
+  197  git config -- list
+  198  cd Documents
+  199  git config -- list
+  200  git config --list
+  201  cd
+  202  git config --list
+  203  mkdir 05-23-2017_SDAL_DSPG
+  204  cd 05-23-2017_SDAL_DSPG/
+  205  ls
+  206  ls -a
+  207  git init
+  208  ls
+  209  ls -a
+  210  ls .git/
+  211  git status
+  212  nana README.md
+  213  nano README.md
+  214  git status
+  215  git add README.md
+  216  git status
+  217  git commit
+  218  git status
+  219  nano README.md
+  220  git status
+  221  git add README.md
+  222  git status
+  223  git commit -m 'I added a new line to this file'
+  224  git status
+  225  nano README.md
+  226  git status
+  227  git add README.md
+  228  git status
+  229  git commit -m 'Added yet another line to this file'
+  230  git status
+  231  nano READM.md
+  232  nano README.md
+  233  git status
+  234  git diff
+  235  git status
+  236  git add README.md
+  237  git commit -m 'added another line and checked with git diff'
+  238  git status
+  239  nano README.md
+  240  git add .
+  241  git commit -m 'added another line to see the usage of git add .'
+  242  git status
+  243  git log
+  244  git log --oneline
+  245  ls
+  246  nano README.md
+  247  git status
+  248  git diff
+  249  git checkout README.md
+  250  cat README.md
+  251  mkdir output
+  252  ls
+  253  ls -a
+  254  touch output/.gitkeep
+  255  git status
+  256  nano README.md
+  257  git status
+  258  git add .
+  259  git status
+  260  git commit -m 'added the output folder and modified README file again'
+  261  touch output/temp1.png
+  262  git stats
+  263  git status
+  264  nano .gitignore
+  265  git status
+  266  git add .
+  267  git commit -m 'tell git to ignore this file'
+  268  git status
+  269  git log  --oneline
+  270  git checkout ff33830 README.md
+  271  ls
+  272  git status
+  273  git diff
+  274  git reset --hard
+  275  git status
+  276  git log --oneline --graph --decorate --all
+  277  git checkout ff33830
+  278  git log --oneline --graph --decorate --all
+  279  git checkout master
+  280  git status
+  281  git log --oneline --graph --decorate --all
+  282  git remote add origin https://github.com/latak215/05-23-2017_SDAL_DSPG.git
+  283  git remove -v
+  284  git remote -v
+  285  git push origin master
+  286  nano README.md
+  287  git status
+  288  git add .
+  289  git commit -m 'fixed the extra apostrophy'
+  290  git status
+  291  git remote -v
+  292  git push origin master
+  293  touch src
+  294  touch src/my_cool_script.R
+  295  mkdir src
+  296  touch src/my_cool_script.R
+  297  ls
+  298  cat src/my_cool_script.R
+  299  rm src
+  300  ls
+  301  mkdir src
+  302  touch src/my_cool_script.R
+  303  git pull origin master
+  304  git log --oneline
+  305  git add .
+  306  git commit -m 'added this R script file to repository'
+  307  git status
+  308  git pull origin master
+  309  git log --online
+  310  git log --oneline
+  311  ls
+  312  git push origin master
+  313  nano README.md
+  314  git add .
+  315  git commit -m 'added a line from the laptop'
+  316  git pull origin master
+  317  git push origin master
+  318  nano my_cool_script.R
+  319  git add .
+  320  git commit -m 'added a line from laptop'
+  321  git pull origin master
+  322  git push origin master
+  323  git push origin master
+  324  nano my_cool_script.R
+  325  git add .
+  326  git commit -m 'added yet another line in laptop to create a conflict'
+  327  git pull origin master
+  328  nano my_cool_script.R
+  329  git status
+  330  git add .
+  331  git status
+  332  git commit -m 'fixed the conflict and deleted a line.'
+  333  git status
+  334  git push master origin
+  335  git push origin master
+  336  git log --oneline
+  337  cd
+  338  ls
+  339  cd Documents
+  340  cd Git
+  341  git clone https://github.com/ckelling/2017-05-23-sdal_dspg.git
+  342  cd 2017-05-23-sdal_dspg
+  343  ls
+  344  touch conflicts.txt
+  345  nano conflicts.txt
+  346  git add .
+  347  git commit -m 'added this file called conflicts'
+  348  git pull origin master
+  349  git push origin master
+  350  ls
+  351  nano conflicts.txt
+  352  git add .
+  353  git commmit -m 'wrote another line in laptop by Lata.'
+  354  git commit -m 'wrote another line in laptop by Lata.'
+  355  git pull origin master
+  356  nano conflicts.txt
+  357  git add .
+  358  git commit -m 'removed the conflict by Lata'
+  359  git pull origin master
+  360  git push origin master
+  361  nano conflicts.txt
+  362  git pull origin master
+  363  git status
+  364  nano conflicts.txt
+  365  git add .
+  366  git commit -m 'added a line within Claire line'
+  367  git push origin master
+  368  nano conflicts.txt
+  369  git pull origin master
+  370  nano conflicts.txt
+  371  git add .
+  372  git commit -m 'added the additional line in the front by Claire.'
+  373  git push origin master
+  374  history
