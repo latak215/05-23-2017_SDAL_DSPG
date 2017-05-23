@@ -8,3 +8,5 @@ Let's say I forgot what change I made. Use git diff to see this.
 
 blah blah blah
 
+I added the output fodler with a '.gitkeep' file'
+
